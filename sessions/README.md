@@ -32,7 +32,8 @@ GPS data is contained in a JSON file, with each the Session ID in the file name,
 | calories | Integer  | Calories burned whilst surfing. Can be null if device doesn't provide this.|
 | wavesPerHour | Integer  |Average waves caught per hour surfed. Can be null if no waves caught.|
 | ratings | Integer | Automated rating for the Sessions time.  0 = VERY POOR, 1 = POOR, 2 = POOR TO FAIR, 3 = FAIR, 4 = FAIR TO GOOD |
-| tide	| Float | Tide level in *feet*.
+| user | String | Unique user ID. |
+| tide	| Float | Tide level in *feet*. |
 | tide_normalized| Float | Normalized tide level. 0 = lowest tide possible, 1 = highest tide possible. |	
 | next_tide| String | Next tide event, describing the tide level, type of extrema, and time of the extrema. |
 | minBWH	| Float | Minimum breaking wave height in *feet*. |
