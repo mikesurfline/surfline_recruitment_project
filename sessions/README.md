@@ -8,7 +8,7 @@ Here, we specifically are interested in visualizations of the data and how these
 - be made directly into a product for users to be explored in the app / on web
 
 For example, 
-Tidal variance is very large for Bantham. Do people take off at different locations depending on the tide level?
+Tidal variance is very large for in the UK. Do people take off at different locations depending on the tide level?
 Could we help them make a decision on where to sit based on the tide level by showing them a visualization? How would such a map looks like?
 
 ## Data
@@ -16,8 +16,8 @@ Could we help them make a decision on where to sit based on the tide level by sh
 This repository contains sample data from Surfline Sessions between October 2019 and March 2023 for Bantham, UK. The data is anonymized and does not contain any personally identifiable information.
 We provide Sessions data as well as forecast data for the time of the Sessions, such as breaking wave heights, tides, and Surfline's Ratings scale for the time of the Sessions.
 
-Forecast data is contained in a `BanthamForecast.csv`, with each row for one Session.
-GPS data is contained in a JSON file, with each the Session ID in the file name, and each event (e.g. a surfed wave) as a nested object.
+Forecast data is contained in `BanthamForecast.csv`, with each row for one Session.
+GPS data is contained in a JSON file, with the Session ID in the file name, and each event (e.g. a surfed wave) as a nested object.
 
 ### Forecast Data
 
