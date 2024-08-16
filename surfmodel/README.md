@@ -2,12 +2,7 @@
 
 ## Dataset
 
-Here is a description of the data in the spreadsheet: 
-
-The rows are hourly forecast data for Croyde, Devon, UK.
-
-BWH: Breaking wave heights at the beach
-SIGH: Significant wave heights (usually open water)
+The rows in the provided spreadsheet are hourly forecast data for Croyde, Devon, UK.
 
 -	`TIMESTAMP`: UTC UNIX timestamp of forecast time
 -	`WAVEMODEL_SIGH_MT`: Total significant wave height of all swells in meters
