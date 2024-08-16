@@ -2,7 +2,7 @@
 
 ## Dataset
 
-Here is a descriptions of the data in the spreadsheet: 
+Here is a description of the data in the spreadsheet: 
 
 The rows are hourly forecast data for Croyde, Devon, UK.
 
