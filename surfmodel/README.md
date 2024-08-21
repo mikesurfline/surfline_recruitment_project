@@ -28,8 +28,20 @@ Surfline article: https://www.surfline.com/lp/whatsnew/features/swell-spectra
 
 
 ## Tasks
-Please feel free to explore this dataset, statistically and visually analyze the performance of the `SURFMODEL` (ideally it would be perfectly aligned with the observations). Furthermore, we have provided a script that builds basic machine-learning algorithms to predict observations.
+
+### 1. 
+
+Explore this dataset, and statistically and visually analyze the performance of the `SURFMODEL` (ideally it would be perfectly aligned with the observations). 
+
+### 2.
+
+We have provided a script that builds basic machine-learning algorithms to predict observations.
 -	A Linear regression model. Using the `SURFMODEL` data, it scales the values (fitting a slope), so they (hopefully) align with the observations.
 -	A random forest regressor. It uses the swell partitions as inputs and tries to predict the observations
 
 How are they performing? Better than the `SURFMODEL`? Can you make them better?
+
+
+### 3.
+
+How would you build a product around the hourly model data and the twice daily observations? How would you assimilate the human observations into the model?
